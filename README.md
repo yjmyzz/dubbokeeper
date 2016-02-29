@@ -47,7 +47,7 @@ dubbokeeper在1.0.1版本对监控数据存储模块抽离出来，做为单独�
 
 执行完之后在`target`目录下面会发现`xxx-dubbokeeper-ui`,`xxx-dubbokeeper-server`以及`xxx-dubbokeeper-server.tar.gz`
 
-其中`xxx-dubbokeeper-ui`下会有一个war包，将该war包部署到tomcat或者jetty里面（或者其他servlet容器），那么就部署好了监控展示应用了
+其中`xxx-dubbokeeper-ui`下会有一个war包，将该war包部署到tomcat或者jetty里面（或者其他servlet容器），那么就部署好了监控展示应用了(注:xxx-dubbokeeper-ui启用前,先按步骤4启动存储服务,否则ui启动过程中会报错)
 
 
 >3、监控数据暂时端调整配置
